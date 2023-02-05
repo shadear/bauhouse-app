@@ -1,10 +1,9 @@
-import 'package:bauhouse/src/config/router/go_router_refresh_streams.dart';
-import 'package:bauhouse/src/views/views.dart';
+import 'package:bauhouse/src/config/config.dart';
+import 'package:bauhouse/src/data/data.dart';
+import 'package:bauhouse/src/screens/screens.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-
-import '../../data/repositories/repositories.dart';
 
 enum AppRoute {
   products,
@@ -108,16 +107,6 @@ final goRouterProvider = Provider<GoRouter>(
             return MaterialPage(
               fullscreenDialog: true,
               child: const RegisterPage(),
-              key: state.pageKey,
-            );
-          },
-        ),
-        GoRoute(
-          name: AppRoute.verification.name,
-          path: '/verification',
-          pageBuilder: (context, state) {
-            return MaterialPage(
-              child: const VerificationPage(),
               key: state.pageKey,
             );
           },
