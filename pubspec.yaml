@@ -1,10 +1,11 @@
 name: bauhouse
-description: A new Flutter project.
-publish_to: 'none'
+description: Bauhouse application
 version: 1.0.0+1
+publish_to: none
 
 environment:
-  sdk: '>=2.18.6 <3.0.0'
+  sdk: ">=2.19.0 <3.0.0"
+  flutter: ">=3.7.0"
 
 dependencies:
   cached_network_image: ^3.2.3
@@ -16,20 +17,25 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_hooks: ^0.18.5+1
-  flutter_native_splash: ^2.2.17
-  go_router: ^6.0.2
+  flutter_launcher_icons: ^0.11.0
+  # flutter_native_splash: ^2.2.17
+  go_router: ^6.0.3
   hooks_riverpod: ^2.1.3
   shared_preferences: ^2.0.17
 
 dev_dependencies:
-  flutter_lints: ^2.0.1
   flutter_test:
     sdk: flutter
+  very_good_analysis: ^3.1.0
 
 flutter:
   uses-material-design: true
+  generate: true
   assets:
-    - assets/images/image.png
+    - assets/
 
-flutter_native_splash:
-  color: "#000000"
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
+  min_sdk_android: 22
