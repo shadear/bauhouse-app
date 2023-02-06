@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "155787131202",
+    "project_id": "bauhouse-app",
+    "storage_bucket": "bauhouse-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155787131202:android:0719aa3125000e36a5b0db",
+        "android_client_info": {
+          "package_name": "com.example.bauhouse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155787131202-ttarsuo0fpnbj7mdjnhtcfpca0dnmsel.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYgPXqlqFjhPKBtAkKD22z1hNBkpx7R7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155787131202-ttarsuo0fpnbj7mdjnhtcfpca0dnmsel.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
